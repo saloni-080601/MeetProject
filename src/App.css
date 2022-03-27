@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+.btn{
+  background-color: yello;
+  height: 40px;
+  border-radius: 1px green;
+  color: green
+}
+.btn-2{
+  height: 40px;
+  margin-right: 20px;
+  
+}
+.tabs{
+  margin-left: 500px;
+  margin-right: 400px;
+}
+.img{
+  background-color:white;
+}
+.ready{
+  width: 30%;
+}
+.watch{
+  width: 70%;
+  margin: auto;
+  display: flex
+}
