@@ -28,7 +28,6 @@ const Img = styled('img')({
         maxWidth: 990,
         borrderRadius:"20px",
         borderShadow:"30px",
-        borderRight:"2px solid green",
         position: "relative",
                 backgroundColor: (theme) =>
           theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
