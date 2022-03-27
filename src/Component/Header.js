@@ -71,30 +71,7 @@ function TabPanel(props) {
             </Grid>
           </Toolbar>
         </AppBar>
-       
-        {/* <Grid  sx={{ borderBottom: "2px", borderColor: 'divider',backgroundColor:"white", }} className="box" container>
-        <Grid item xs style={{textAlign:"left"}}>
-        
-        </Grid>
-        <Grid item xs >
-          <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" className='tabs'>  
-            <Tab icon={< PersonPinIcon/>} label="Discovery" {...a11yProps(0)} />
-            <Tab icon={< GroupIcon/>} label="Invite" {...a11yProps(1)} />
-            <Tab icon={< GroupIcon/>} label="Support" {...a11yProps(2)} />  
-          </Tabs>
-        </Grid>
-        <Grid item xs>
-          <Stack direction="row" spacing={2} sx={{mt:3}}>
-        
-        <Button variant='outlined' className='btn' style={{color:"green", borderRadius:"2px green"}}>
-            Post Job
-        </Button>
-        <Button variant="contained" color="success" className='btn-2'>
-            Sign In
-        </Button>
-    </Stack>
-    </Grid>
-     </Grid> */}
+     
        <Box style={{marginTop:"130px"}}>
         <TabPanel value={value} index={0} >
           <ProfileCard/>
